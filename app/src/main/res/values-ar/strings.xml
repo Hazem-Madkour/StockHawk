@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">متابع الأسهم</string>
+
+    <string name="dialog_title">إضافة سهم</string>
+    <string name="dialog_hint">رمز (مثال GOOG)</string>
+    <string name="dialog_cancel">إلغاء</string>
+    <string name="dialog_add">إضافة</string>
+
+    <string name="error_no_network">لا يوجد إتصال بالانترنت، وسيتم التحديث عندما يتواجد الإتصال</string>
+    <string name="error_no_stocks">لا يوجد سهم! إضفط على الزر لإضافة واحد.</string>
+
+    <string name="toast_stock_added_no_connectivity">الرمز %s تم إضافته. وسيتم التحديث عندما تتوافر شبكة إنترنت</string>
+    <string name="toast_no_connectivity">سيتم التحديث عندما تتاح الشبكة</string>
+    <string name="add_new_stock_button">زر إضافة سهم جديد</string>
+    <string name="month_3">3 أشهر</string>
+    <string name="see_3_months_history_button">زر مشاهدة تاريخ 3 أشهر</string>
+    <string name="months_6">6 أشهر</string>
+    <string name="year">سنة</string>
+    <string name="see_6_months_history_button">زر مشاهدة تاريخ 6 أشهر</string>
+    <string name="see_year_history_button">زر مشاهدة تاريخ سنة</string>
+    <string name="date">تاريخ:</string>
+    <string name="close_value">قيمة الغلق:</string>
+    <string name="history_chart">رسم بيانى لتاريخ الأرصدة</string>
+    <string name="loading_status">حالة التحميل</string>
+    <string name="not_find_stock">السهم %s غير موجود.</string>
+    <string name="stock_loaded_successfully">تم تحميل سهم %s بنجاح</string>
+    <string name="already_exist">سهم %s موجود مسبقاً</string>
+    <string name="loading">جارى التحميل</string>
+    <string name="get_stock">تحميل سهم %s</string>
+    <string name="stocks_history">تاريخ الأسهم</string>
+
+</resources>

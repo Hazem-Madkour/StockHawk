@@ -1,0 +1,28 @@
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertically_margin">8dp</dimen>
+    <dimen name="fab_elevation">6dp</dimen>
+    <dimen name="fab_translation_z">12dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_error_padding">6dp</dimen>
+    <dimen name="fab_border_width">0dp</dimen>
+    <dimen name="add_edittext_dialog_margin_left">4dp</dimen>
+    <dimen name="add_edittext_dialog_margin_top">16dp</dimen>
+    <dimen name="cardview_history_margin_vertically">32dp</dimen>
+    <dimen name="cardview_elevation">6dp</dimen>
+    <dimen name="cardview_history_corner_raduis">6dp</dimen>
+    <dimen name="cardview_history_horizontal_margin">16dp</dimen>
+    <dimen name="widget_drawable_padding">16dp</dimen>
+    <dimen name="widget_detail_default_width">250dp</dimen>
+    <dimen name="widget_detail_default_height">180dp</dimen>
+    <dimen name="widget_detail_min_resize_width">220dp</dimen>
+    <dimen name="widget_detail_min_resize_height">@dimen/widget_detail_default_height</dimen>
+    <dimen name="layout_history_padding">10dp</dimen>
+    <dimen name="history_text_info_padding">6dp</dimen>
+    <dimen name="response_icon_width">120dp</dimen>
+    <dimen name="response_icon_height">120dp</dimen>
+    <dimen name="cardview_response_margin">6dp</dimen>
+    <dimen name="cardview_response_radius">2dp</dimen>
+    <dimen name="text_change_padding">3dp</dimen>
+
+</resources>

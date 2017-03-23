@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="@dimen/cardview_response_margin"
+    android:elevation="@dimen/cardview_elevation"
+    card_view:cardCornerRadius="@dimen/cardview_response_radius">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/listPreferredItemHeight"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/activity_vertically_margin"
+        android:paddingRight="@dimen/activity_vertically_margin">
+
+        <TextView
+            android:id="@+id/symbol"
+            style="@style/StockSymbolTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="start|center_vertical"
+            tools:text="GOOG" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end">
+
+            <TextView
+                android:id="@+id/price"
+                style="@style/BidPriceTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/text_error_padding"
+                android:layout_marginEnd="@dimen/text_error_padding"
+                tools:text="1000.00" />
+
+            <TextView
+                android:id="@+id/change"
+                style="@style/PercentChangeTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/percent_change_pill_green"
+                android:paddingLeft="@dimen/text_change_padding"
+                android:paddingRight="@dimen/text_change_padding"
+                tools:text="100%" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>
