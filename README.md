@@ -1,5 +1,5 @@
 # Stock Hawk
-Udacity Android Nanodegree StockHawk (Project 3)
+App for [Udacity Android Nanodegree](https://www.udacity.com/course/android-developer-nanodegree-by-google--nd801), StockHawk (Project 3)
 
 # Demo Video
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=EJI8un5Kq4U
